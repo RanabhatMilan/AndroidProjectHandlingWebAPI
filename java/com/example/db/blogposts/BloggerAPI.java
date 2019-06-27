@@ -7,8 +7,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Url;
 
 public class BloggerAPI {
-    public static final String key = "AIzaSyBPAHH6HHfn62aAwRaNM4u1qSGO9vqORsw";
-    public static final String url = "https://www.googleapis.com/blogger/v3/blogs/5368603297511044146/posts/";
+    public static final String key = "Google API key";
+    public static final String url = "https://www.googleapis.com/blogger/v3/blogs/BloggerAPIkey/posts/";
     public static PostService postService = null;
     public static PostService getService(){
         if (postService == null){
